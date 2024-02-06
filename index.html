@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <title>Password Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <div id="passGenerator">
+      <div class="container">
+        <h1>Generate a <br />Random Password</h1>
+        <div class="display">
+          <input type="text" class="password" placeholder="password" />
+          <img src="copy.png" class="img" onclick="copyPass()" />
+        </div>
+        <button class="generate">
+          <img src="generate.png" class="generate"  />Generate Password
+        </button>
+      </div>
+    </div>
+
+    <script src="code.js"></script>
+  </body>
+</html>
